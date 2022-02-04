@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.portfolio {
+  text-align: center;
+  box-shadow: 1px 1px 5px black;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.portfolio button {
+  background-color: white;
+}
+
+.img-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+i {
+  font-size: 28px;
+}
+
+i:hover {
+  cursor: pointer;
+}
